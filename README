@@ -1,0 +1,45 @@
+Manufacturer Long text for OXID eShops CE (build in 4.5.1)
+
+Run the migration.sql
+Rebuild views:
+Service -> Tools -> SQL -> Views jetzt updaten
+
+You can copy all files from the copy_this folder to their respective location,
+if you have a vanilla 4.5.1 OXID eShops CE installation.
+Other versions are not tested yet. 
+
+Or copy it manually:
+ 
+lang:
+out/admin/de/cust_lang.php & out/admin/en/cust_lang.php
+insert in array:
+'tbclmanufacturer_text'   => 'Text'
+
+BEWARE:
+I switched encoding to UTF-8!
+
+menu:
+admin/menu.xml
+Insert:
+<TAB id="tbclmanufacturer_text" cl="manufacturer_text" />
+under:
+<SUBMENU id="mxmanufacturer" cl="manufacturer" list="manufacturer_list">
+
+Copy controller:
+manufacturer_text.php
+to:
+admin/manufacturer_text.php
+
+Copy template:
+manufacturer_text.tpl
+to
+out/admin/tpl/manufacturer_text.tpl
+
+Clear /tmp
+
+
+CAUTION:
+Due to the -notsonice- module integration, your OXID installation is now not easy updatable anymore.
+This is particulary because of the modification of menu.xml and the admin template cust_lang files.
+But as i believe this should be a core feature, this shouldnt be seen as a module anyway.
+
