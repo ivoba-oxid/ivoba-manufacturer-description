@@ -52,7 +52,7 @@ $aLang = array(
 'EMAIL_SENDEDNOW_HTML_ORDERGOSTO'          => 'Die Sendung geht an',
 'EMAIL_SENDEDNOW_HTML_ORDERNUM'            => 'Ihre Bestellnr.',
 'EMAIL_SENDEDNOW_HTML_RATE'                => 'bewerten',
-'tbclmanufacturer_text'   => 'Text'
+'tbclmanufacturer_text'   => 'Langtext'
 );
 
 /*
