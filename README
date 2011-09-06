@@ -17,35 +17,7 @@ oxmanufacturerlist => ext_oxmanufacturerlist
 Or get the value in the template nativly, then you dont need to enable the above module:
 f.e. [{$actCategory->oxmanufacturers__oxlongdesc->value}]
 
-Or copy it manually:
- 
-lang:
-out/admin/de/cust_lang.php & out/admin/en/cust_lang.php
-insert in array:
-'tbclmanufacturer_text'   => 'Text'
-
-BEWARE:
-I switched encoding to UTF-8!
-
-menu:
-admin/menu.xml
-Insert:
-<TAB id="tbclmanufacturer_text" cl="manufacturer_text" />
-under:
-<SUBMENU id="mxmanufacturer" cl="manufacturer" list="manufacturer_list">
-
-Copy controller:
-manufacturer_text.php
-to:
-admin/manufacturer_text.php
-
-Copy template:
-manufacturer_text.tpl
-to
-out/admin/tpl/manufacturer_text.tpl
-
 Clear /tmp
-
 
 CAUTION:
 Due to the -notsonice- module integration, your OXID installation is now not easy updatable anymore.
