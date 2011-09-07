@@ -14,7 +14,7 @@ class ext_oxmanufacturerlist extends oxManufacturerList {
         $oManufacturer->oxcategories__oxid = new oxField($oManufacturer->oxmanufacturers__oxid->value);
         $oManufacturer->oxcategories__oxicon = $oManufacturer->oxmanufacturers__oxicon;
         $oManufacturer->oxcategories__oxtitle = $oManufacturer->oxmanufacturers__oxtitle;
-        $oManufacturer->oxcategories__oxdesc = $oManufacturer->oxmanufacturers__oxlongdesc;
+        $oManufacturer->oxcategories__oxdesc = $oManufacturer->oxmanufacturers__extlongdesc;
 
         $oManufacturer->setIsVisible(true);
         $oManufacturer->setHasVisibleSubCats(false);

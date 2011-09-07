@@ -27,7 +27,7 @@ class Manufacturer_Text extends oxAdminDetails {
             }
         }
 
-        $this->_aViewData["editor"] = $this->_generateTextEditor("100%", 300, $o, "oxmanufacturers__oxlongdesc", "list.tpl.css");
+        $this->_aViewData["editor"] = $this->_generateTextEditor("100%", 300, $o, "oxmanufacturers__extlongdesc", "list.tpl.css");
 
         return "manufacturer_text.tpl";
     }

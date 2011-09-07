@@ -2,7 +2,7 @@
 
 class Ext_oxManufacturer extends oxManufacturer{
 
-       /**
+    /**
      * Sets data field value
      *
      * @param string $sFieldName index OR name (eg. 'oxarticles__oxtitle') of a data field to set
@@ -15,7 +15,7 @@ class Ext_oxManufacturer extends oxManufacturer{
     {
         //preliminar quick check saves 3% of execution time in category lists by avoiding redundant strtolower() call
         if ($sFieldName[2] == 'l' || $sFieldName[2] == 'L' || (isset($sFieldName[16]) && ($sFieldName[16] == 'l' || $sFieldName[16] == 'L') ) ) {
-            if ('oxlongdesc' === strtolower($sFieldName) || 'oxcmanufacturers__oxlongdesc' === strtolower($sFieldName)) {
+            if ('oxlongdesc' === strtolower($sFieldName) || 'oxmanufacturers__extlongdesc' === strtolower($sFieldName)) {
                 $iDataType = oxField::T_RAW;
             }
         }
