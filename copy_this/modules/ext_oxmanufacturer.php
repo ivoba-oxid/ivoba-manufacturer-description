@@ -15,7 +15,7 @@ class Ext_oxManufacturer extends oxManufacturer{
     {
         //preliminar quick check saves 3% of execution time in category lists by avoiding redundant strtolower() call
         if ($sFieldName[2] == 'l' || $sFieldName[2] == 'L' || (isset($sFieldName[16]) && ($sFieldName[16] == 'l' || $sFieldName[16] == 'L') ) ) {
-            if ('oxlongdesc' === strtolower($sFieldName) || 'oxmanufacturers__extlongdesc' === strtolower($sFieldName)) {
+            if ('extlongdesc' === strtolower($sFieldName) || 'oxmanufacturers__extlongdesc' === strtolower($sFieldName)) {
                 $iDataType = oxField::T_RAW;
             }
         }
