@@ -1,6 +1,6 @@
 <?php
 
-class Ext_oxManufacturer extends oxManufacturer{
+class ext_oxManufacturer extends ext_oxManufacturer_parent{
 
     /**
      * Sets data field value

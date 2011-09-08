@@ -1,6 +1,6 @@
 <?php
 
-class ext_oxmanufacturerlist extends oxManufacturerList {
+class ext_oxmanufacturerlist extends ext_oxmanufacturerlist_parent {
 
     /**
      * overrides parent method
