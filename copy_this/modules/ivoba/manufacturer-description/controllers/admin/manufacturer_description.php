@@ -83,7 +83,6 @@ class manufacturer_description extends oxAdminDetails
         }
 
         $o->assign($aParams);
-//        $o->setLanguage($iLang);
         $o->save();
 
         // set oxid if inserted

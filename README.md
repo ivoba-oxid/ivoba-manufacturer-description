@@ -19,6 +19,12 @@ After you have activated the module, you will find a tab "Description" in your m
 "Stammdaten -> Hersteller".  
 Enter your description there.
 
+## Misc
+Forum Thread:
+http://forum.oxid-esales.com/showthread.php?t=9112
+
+Similar module:  
+https://github.com/Alpha-Sys/asy_mantext
 
 ## Requirements
 
