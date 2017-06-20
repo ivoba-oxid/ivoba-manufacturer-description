@@ -7,23 +7,19 @@
     </h1>
     <div class="listRefine clear bottomRound">
         [{assign var="oConf" value=$oViewConf->getConfig()}]
-        [{if $actCategory && $oConf->getConfigParam('ivoba__manufacturer_description_ShowShortDescription') &&
-        $actCategory->getShortDescription() }]
+        [{if $actCategory && $oConf->getConfigParam('ivoba_manufacturer_description_ShowShortDescription') &&
+          $actCategory->getShortDescription() }]
             <div id="catDescLocator" class="categoryDescription">[{$actCategory->getShortDescription()}]</div>
         [{/if}]
-        [{if $actCategory->oxcategories__oxlongdesc->value && $oConf->getConfigParam('ivoba_manufacturer_description_ShowCatDescription') }]
-            <div id="catLongDescLocator" class="categoryDescription">[{oxeval var=$actCategory->oxcategories__oxlongdesc}]</div>
-        [{/if}]
-        [{if $oView->getCategoryId() === null && $oConf->getConfigParam('ivoba_manufacturer_description_ShowManufacturerDescription') }]
-            [{if $actCategory->getLongDescription() }]
-                <div id="manufacturerLongDescLocator" class="manufacturerDescription">
-                    [{$actCategory->getLongDescription()}]
-                </div>
-            [{/if}]
+        [{if $actCategory->oxcategories__oxlongdesc->value && $oConf->getConfigParam('ivoba_manufacturer_description_ShowDescriptionAboveList') }]
+            <div id="catLongDescLocator" class="categoryLongDescription">[{oxeval var=$actCategory->oxcategories__oxlongdesc}]</div>
         [{/if}]
         [{include file="widget/locator/listlocator.tpl" locator=$oView->getPageNavigationLimitedTop() attributes=$oView->getAttributes() listDisplayType=true itemsPerPage=true sort=true }]
     </div>
     [{* List types: grid|line|infogrid *}]
     [{include file="widget/product/list.tpl" type=$oView->getListDisplayType() listId="productList" products=$oView->getArticleList()}]
     [{include file="widget/locator/listlocator.tpl" locator=$oView->getPageNavigationLimitedBottom() place="bottom"}]
+    [{if $actCategory->oxcategories__oxlongdesc->value && $oConf->getConfigParam('ivoba_manufacturer_description_ShowDescriptionBelowList') }]
+        <div id="catLongDescLocator" class="categoryLongDescription">[{oxeval var=$actCategory->oxcategories__oxlongdesc}]</div>
+    [{/if}]
 [{/if}]

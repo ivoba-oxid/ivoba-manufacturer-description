@@ -53,11 +53,26 @@ class ivoba_manufacturer_description_manufacturer extends ivoba_manufacturer_des
      *
      * @return string
      */
-    public function getLongDescription()
+    public function getManufacturerLongDescription()
     {
         if (isset($this->oxmanufacturers__extlongdesc->value) && $this->oxmanufacturers__extlongdesc instanceof oxField) {
             return oxRegistry::get("oxUtilsView")->parseThroughSmarty($this->oxmanufacturers__extlongdesc->getRawValue(), $this->getId() . $this->getLanguage(), null, true);
         }
+    }
+
+    /**
+     * assign extlongdesc to oxlongdesc field since manufacturer is handled as category
+     * @param string $sName
+     * @return string
+     */
+    public function __get($sName)
+    {
+        if ($sName === 'oxcategories__oxlongdesc') {
+            $this->oxcategories__oxlongdesc = $this->oxmanufacturers__extlongdesc;
+        }
+
+        return parent::__get($sName);
+
     }
 
 }

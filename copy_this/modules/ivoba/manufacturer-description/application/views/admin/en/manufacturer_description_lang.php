@@ -27,10 +27,9 @@ $sLangName = "English";
 // -------------------------------
 $aLang = [
     'charset'               => 'UTF-8',
-    'tbclmanufacturer_text' => 'Text',
+    'tbclmanufacturer_text' => 'Description',
     'SHOP_MODULE_GROUP_ivoba_manufacturer_description_main' => 'Settings',
-    'SHOP_MODULE_ivoba_manufacturer_description_ShowShortDescription' => 'Show short descriptions for categories & manufacturers',
-    'SHOP_MODULE_ivoba_manufacturer_description_ShowCatDescription' => 'Show descriptions for categories',
-    'SHOP_MODULE_ivoba_manufacturer_description_ShowManufacturerDescription' => 'Show descriptions for manufacturers'
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowShortDescription' => 'Show short descriptions for categories & manufacturers above list',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowDescriptionAboveList' => 'Show descriptions for categories & manufactureres above list',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowDescriptionBelowList' => 'Show descriptions for categories & manufacturers below list'
 ];
-

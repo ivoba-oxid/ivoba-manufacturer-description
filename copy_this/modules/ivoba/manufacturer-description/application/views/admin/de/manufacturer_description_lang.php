@@ -29,7 +29,7 @@ $aLang = [
     'charset'               => 'UTF-8',
     'tbclmanufacturer_text' => 'Beschreibung Langtext',
     'SHOP_MODULE_GROUP_ivoba_manufacturer_description_main' => 'Einstellungen',
-    'SHOP_MODULE_ivoba_manufacturer_description_ShowShortDescription' => 'Zeige Kurzbeschreibung für Hersteller & Kategorien',
-    'SHOP_MODULE_ivoba_manufacturer_description_ShowCatDescription' => 'Zeige Beschreibung für Kategorien',
-    'SHOP_MODULE_ivoba_manufacturer_description_ShowManufacturerDescription' => 'Zeige Beschreibung für Hersteller'
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowShortDescription' => 'Zeige Kurzbeschreibung für Hersteller & Kategorien über Liste',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowDescriptionAboveList' => 'Zeige Beschreibung für Hersteller & Kategorien über Liste',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowDescriptionBelowList' => 'Zeige Beschreibung für Hersteller & Kategorien unter Liste'
 ];

@@ -50,7 +50,7 @@ $aModule          = [
     ],
     'settings' => [
         ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowShortDescription', 'type' => 'bool', 'value' => false],
-        ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowCatDescription', 'type' => 'bool', 'value' => false],
-        ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowManufacturerDescription', 'type' => 'bool', 'value' => true],
+        ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowDescriptionAboveList', 'type' => 'bool', 'value' => false],
+        ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowDescriptionBelowList', 'type' => 'bool', 'value' => true],
     ],
 ];
