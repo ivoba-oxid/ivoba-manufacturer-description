@@ -67,12 +67,11 @@ class ivoba_manufacturer_description_manufacturer extends ivoba_manufacturer_des
      */
     public function __get($sName)
     {
-        if ($sName === 'oxcategories__oxlongdesc') {
-            $this->oxcategories__oxlongdesc = $this->oxmanufacturers__extlongdesc;
+        if ($sName === 'is_manufacturer_list') {
+          return true;
         }
 
         return parent::__get($sName);
-
     }
 
 }

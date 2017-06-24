@@ -1,7 +1,7 @@
 # Manufacturer long description for OXID eShops CE
 Add a fulltext long description for manufacturers to your oxid eShop.  
 
-Unfortunatly OXID eShops just have a (very) short description field for manufacturers, 
+Unfortunatly OXID eShops just have a (very) short description field for manufacturers,
 this is where this module comes in and adds a long text description field.  
 You even can add a RichText Editor to it.  
 
@@ -15,9 +15,13 @@ If you use https://github.com/vanilla-thunder/bla-tinymce Editor, add
 "manufacturer_description" in the "bestlife TinyMCE" configuration for backend classes.
 
 ## Usage
-After you have activated the module, you will find a tab "Description" in your manufacturers under  :
+After you have activated the module, you will find a tab "Description" in your manufacturers under:
 "Stammdaten -> Hersteller".  
 Enter your description there.
+
+Under modules "Erweiterungen -> Module -> Ivo Bathke: Manufacturer Description" you can choose where you want to place the texts.  
+You can choose between above the list, in the locator or below the list.  
+This module can also manage where you show the category short & long descriptions in the same way as for manufacturers.  
 
 ## Misc
 Forum Thread:

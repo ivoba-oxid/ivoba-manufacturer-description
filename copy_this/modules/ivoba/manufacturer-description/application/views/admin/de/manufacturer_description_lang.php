@@ -29,7 +29,13 @@ $aLang = [
     'charset'               => 'UTF-8',
     'tbclmanufacturer_text' => 'Beschreibung Langtext',
     'SHOP_MODULE_GROUP_ivoba_manufacturer_description_main' => 'Einstellungen',
-    'SHOP_MODULE_ivoba_manufacturer_description_ShowShortDescription' => 'Zeige Kurzbeschreibung für Hersteller & Kategorien über Liste',
-    'SHOP_MODULE_ivoba_manufacturer_description_ShowDescriptionAboveList' => 'Zeige Beschreibung für Hersteller & Kategorien über Liste',
-    'SHOP_MODULE_ivoba_manufacturer_description_ShowDescriptionBelowList' => 'Zeige Beschreibung für Hersteller & Kategorien unter Liste'
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowCatShortDescriptionHead' => 'Zeige Kategorien Kurzbeschreibung über Liste',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowCatLongDescriptionHead' => 'Zeige Kategorien Langbeschreibung über Liste',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowCatShortDescriptionLocator' => 'Zeige Kategorien Kurzbeschreibung in Listen-Locator',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowCatLongDescriptionLocator' => 'Zeige Kategorien Langbeschreibung in Listen-Locator',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowManuShortDescriptionHead' => 'Zeige Hersteller Kurzbeschreibung über Liste',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowManuLongDescriptionHead' => 'Zeige Hersteller Langbeschreibung über Liste',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowManuLongDescriptionFooter' => 'Zeige Hersteller Langbeschreibung unter Liste',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowManuShortDescriptionLocator' => 'Zeige Hersteller Kurzbeschreibung in Listen-Locator',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowManuLongDescriptionLocator' => 'Zeige Hersteller Langbeschreibung in Listen-Locator'
 ];

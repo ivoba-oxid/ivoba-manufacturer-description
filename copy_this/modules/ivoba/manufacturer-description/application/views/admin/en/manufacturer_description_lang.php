@@ -29,7 +29,13 @@ $aLang = [
     'charset'               => 'UTF-8',
     'tbclmanufacturer_text' => 'Description',
     'SHOP_MODULE_GROUP_ivoba_manufacturer_description_main' => 'Settings',
-    'SHOP_MODULE_ivoba_manufacturer_description_ShowShortDescription' => 'Show short descriptions for categories & manufacturers above list',
-    'SHOP_MODULE_ivoba_manufacturer_description_ShowDescriptionAboveList' => 'Show descriptions for categories & manufactureres above list',
-    'SHOP_MODULE_ivoba_manufacturer_description_ShowDescriptionBelowList' => 'Show descriptions for categories & manufacturers below list'
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowCatShortDescriptionHead' => 'Show category short description above list',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowCatLongDescriptionHead' => 'Show category long description above list',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowCatShortDescriptionLocator' => 'Show category short description in list-locator',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowCatLongDescriptionLocator' => 'Show category long description in list-locator',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowManuShortDescriptionHead' => 'Show manufacturer short description above list',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowManuLongDescriptionHead' => 'Show manufacturer long description above list',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowManuLongDescriptionFooter' => 'Show manufacturer long description under list',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowManuShortDescriptionLocator' => 'Show manufacturer short description in list-locator',
+    'SHOP_MODULE_ivoba_manufacturer_description_ShowManuLongDescriptionLocator' => 'Show manufacturer long description in list-locator'
 ];

@@ -45,12 +45,23 @@ $aModule          = [
         [
             'template' => 'page/list/list.tpl',
             'block'    => 'page_list_listbody',
-            'file'     => '/views/blocks/manufacturer_description.tpl',
+            'file'     => '/views/blocks/page_list_listbody.tpl',
+        ],
+        [
+            'template' => 'page/list/list.tpl',
+            'block'    => 'page_list_listhead',
+            'file'     => '/views/blocks/page_list_listhead.tpl',
         ]
     ],
     'settings' => [
-        ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowShortDescription', 'type' => 'bool', 'value' => false],
-        ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowDescriptionAboveList', 'type' => 'bool', 'value' => false],
-        ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowDescriptionBelowList', 'type' => 'bool', 'value' => true],
+        ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowCatShortDescriptionHead', 'type' => 'bool', 'value' => true],
+        ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowCatLongDescriptionHead', 'type' => 'bool', 'value' => true],
+        ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowCatShortDescriptionLocator', 'type' => 'bool', 'value' => false],
+        ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowCatLongDescriptionLocator', 'type' => 'bool', 'value' => false],
+        ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowManuShortDescriptionHead', 'type' => 'bool', 'value' => true],
+        ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowManuLongDescriptionHead', 'type' => 'bool', 'value' => true],
+        ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowManuLongDescriptionFooter', 'type' => 'bool', 'value' => false],
+        ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowManuShortDescriptionLocator', 'type' => 'bool', 'value' => false],
+        ['group' => 'ivoba_manufacturer_description_main', 'name' => 'ivoba_manufacturer_description_ShowManuLongDescriptionLocator', 'type' => 'bool', 'value' => false],
     ],
 ];
