@@ -34,6 +34,9 @@ https://github.com/Alpha-Sys/asy_mantext
 - PHP >= 5.6
 - Oxid eShop >= CE 4.9.9
 
+### TODO
+- option to place category long description under the list
+
 ## License MIT
 
 © [Ivo Bathke](https://oxid.ivo-bathke.name)
